@@ -1,0 +1,8 @@
+wwwroot\index.html
+wwwroot\Hello.txt
+wwwroot\script.js
+wwwroot\style.css
+C:\Users\pande\source\repos\ASP.netWipro\MiddleWareDemo\wwwroot\index.html
+C:\Users\pande\source\repos\ASP.netWipro\MiddleWareDemo\wwwroot\Hello.txt
+C:\Users\pande\source\repos\ASP.netWipro\MiddleWareDemo\wwwroot\script.js
+C:\Users\pande\source\repos\ASP.netWipro\MiddleWareDemo\wwwroot\style.css
