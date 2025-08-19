@@ -1,0 +1,8 @@
+wwwroot\script.js
+wwwroot\error.html
+wwwroot\index.html
+wwwroot\style.css
+C:\Users\pande\source\repos\ASP.netWipro\Day26Assignment1\wwwroot\script.js
+C:\Users\pande\source\repos\ASP.netWipro\Day26Assignment1\wwwroot\error.html
+C:\Users\pande\source\repos\ASP.netWipro\Day26Assignment1\wwwroot\index.html
+C:\Users\pande\source\repos\ASP.netWipro\Day26Assignment1\wwwroot\style.css
