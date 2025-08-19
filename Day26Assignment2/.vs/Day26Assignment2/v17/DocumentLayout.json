@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\pages\\items\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:pages\\items\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\pages\\items\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:pages\\items\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\pages\\items\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:pages\\items\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\pages\\items\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:pages\\items\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|c:\\users\\pande\\source\\repos\\asp.netwipro\\day26assignment2\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71C59B3-5770-A0C7-FC75-0050D9579659}|Day26Assignment2.csproj|solutionrelative:services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Items\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\List.cshtml.cs",
+              "RelativeToolTip": "Pages\\Items\\List.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T02:49:04.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Items\\Add.cshtml.cs",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\Add.cshtml.cs",
+              "RelativeToolTip": "Pages\\Items\\Add.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T02:47:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\List.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Items\\List.cshtml",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\List.cshtml",
+              "RelativeToolTip": "Pages\\Items\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T02:45:23.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\Add.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Items\\Add.cshtml",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Pages\\Items\\Add.cshtml",
+              "RelativeToolTip": "Pages\\Items\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T02:44:42.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T02:32:51.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\pande\\source\\repos\\ASP.netWipro\\Day26Assignment2\\Services\\ItemService.cs",
+              "RelativeToolTip": "Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T02:31:48.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
