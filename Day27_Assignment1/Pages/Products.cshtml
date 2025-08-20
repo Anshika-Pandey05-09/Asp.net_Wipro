@@ -1,0 +1,87 @@
+﻿@page
+@model Day27_Assignment1.Pages.ProductsModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Products</h2>
+
+<!-- Form to add product -->
+<form method="post">
+    <div>
+        <label>Product Name:</label>
+        <input asp-for="NewProduct.Name" />
+    </div>
+
+    <div>
+        <label>Description:</label>
+        <input asp-for="NewProduct.Description" />
+    </div>
+
+    <div>
+        <label>Categories (comma separated):</label>
+        <input type="text" name="CategoryInput" />
+    </div>
+
+    <button type="submit">Add Product</button>
+</form>
+
+<hr />
+
+@* <h3>Product List</h3>
+@if (Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>
+                <strong>@product.Name</strong> - @product.Description
+                <br />
+                Categories: @string.Join(", ", product.Categories.Select(c => c.Name))
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products added yet.</p>
+} *@
+
+@* Here we have used a partial view to display each product's summary *@
+@* <h3>Product List</h3>
+@if (Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>
+                @await Html.PartialAsync("_ProductSummary", product)
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products added yet.</p>
+} *@
+
+
+@* Here we have used a partial view to display each product's summary with id of the product *@
+<h3>Product List</h3>
+@if (Model.Products.Any())
+{
+    <ul>
+        @foreach (var product in Model.Products)
+        {
+            <li>
+                <a asp-page="/Products/ProductDetail" asp-route-id="@product.ProductID">
+                    @await Html.PartialAsync("_ProductSummary", product)
+                </a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No products added yet.</p>
+}

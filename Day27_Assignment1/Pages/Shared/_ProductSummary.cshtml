@@ -1,0 +1,7 @@
+@model Day27_Assignment1.Models.Product
+
+<div class="product-summary" style="margin-bottom:15px; padding:10px; border:1px solid #ccc; border-radius:5px;">
+    <strong>@Model.Name</strong> - @Model.Description
+    <br />
+    Categories: @string.Join(", ", Model.Categories.Select(c => c.Name))
+</div>

@@ -1,0 +1,20 @@
+﻿@page "{id:int}"
+@model Day27_Assignment1.Pages.Products.ProductDetailModel
+@{
+    ViewData["Title"] = "Product Detail";
+}
+
+<h2>Product Details</h2>
+
+@if (Model.Product == null)
+{
+    <p>Product not found.</p>
+}
+else
+{
+    <div style="padding:10px; border:1px solid #ccc; border-radius:5px;">
+        <h3>@Model.Product.Name</h3>
+        <p>@Model.Product.Description</p>
+        <p><strong>Categories:</strong> @string.Join(", ", Model.Product.Categories.Select(c => c.Name))</p>
+    </div>
+}
