@@ -36,8 +36,15 @@ namespace Day28_RoutingDemo.Controllers
         [HttpGet("version")]
         public IActionResult GetVersion()
         {
-             var version = new { Version = "1.0.0", ReleaseDate = "2023-10-01", FrameworkName = ".NET 6" };
+            var version = new { Version = "1.0.0", ReleaseDate = "2023-10-01", FrameworkName = ".NET 8" };
             return Ok(version);
+        }
+
+        //Adding an action for versioned route
+        public IActionResult Version(string version)
+        {
+            var apiVersion = new { Version = version, SupportedFeatures = new[] { "Feature1", "Feature2" } };
+            return Ok(apiVersion);
         }
 
     }
