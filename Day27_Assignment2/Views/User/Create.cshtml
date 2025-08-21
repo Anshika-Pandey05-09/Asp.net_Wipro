@@ -1,0 +1,47 @@
+@model Day27_Assignment2.Models.User
+
+@{
+    ViewData["Title"] = "Create User with Address";
+}
+
+<h2>Create User with Address</h2>
+
+<form asp-action="Create" method="post">
+    <fieldset>
+        <legend>User Info</legend>
+        <div>
+            <label>First Name:</label>
+            <input asp-for="FirstName" />
+        </div>
+
+        <div>
+            <label>Last Name:</label>
+            <input asp-for="LastName" />
+        </div>
+
+        <div>
+            <label>Age:</label>
+            <input asp-for="Age" type="number" />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+        <div>
+            <label>Street:</label>
+            <input asp-for="Address.Street" />
+        </div>
+
+        <div>
+            <label>City:</label>
+            <input asp-for="Address.City" />
+        </div>
+
+        <div>
+            <label>Zip Code:</label>
+            <input asp-for="Address.ZipCode" />
+        </div>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+</form>

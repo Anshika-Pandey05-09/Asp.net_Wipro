@@ -1,0 +1,17 @@
+@model Day27_Assignment2.Models.User
+
+@{
+    ViewData["Title"] = "User Submitted with Address";
+}
+
+<h2>User Details</h2>
+<p><strong>First Name:</strong> @Model.FirstName</p>
+<p><strong>Last Name:</strong> @Model.LastName</p>
+<p><strong>Age:</strong> @Model.Age</p>
+
+<h3>Address</h3>
+<p><strong>Street:</strong> @Model.Address.Street</p>
+<p><strong>City:</strong> @Model.Address.City</p>
+<p><strong>Zip Code:</strong> @Model.Address.ZipCode</p>
+
+<a asp-action="Create">Go Back</a>
