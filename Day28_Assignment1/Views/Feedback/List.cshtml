@@ -1,0 +1,30 @@
+@model IEnumerable<Day28_Assignment1.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Feedback List with Stars";
+}
+
+<h2>Submitted Feedback</h2>
+
+@if (!Model.Any())
+{
+    <p>No feedback submitted yet.</p>
+}
+else
+{
+    <ul>
+        @foreach (var feedback in Model)
+        {
+            <li>
+                <strong>@feedback.Name</strong> (@feedback.Email)  
+                <br />
+                Rating: <star-rating value="@feedback.Rating" max="5"></star-rating>
+                <br />
+                Comment: @feedback.Comments
+            </li>
+            <hr />
+        }
+    </ul>
+}
+
+<a asp-action="Create">Submit Another Feedback</a>

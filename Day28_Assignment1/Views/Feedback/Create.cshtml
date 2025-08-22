@@ -1,0 +1,43 @@
+@using Day28_Assignment1.Helpers
+@model Day28_Assignment1.Models.Feedback
+
+@{
+    ViewData["Title"] = "Submit Feedback (Custom HTML Helper)";
+}
+
+<h2>Submit Feedback</h2>
+
+@using (Html.BeginForm("Create", "Feedback", FormMethod.Post))
+{
+    <div>
+        <label>Name:</label>
+        @Html.StyledTextBox("Name", "Enter your name", "form-control")
+    </div>
+
+    <div>
+        <label>Email:</label>
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email" })
+    </div>
+
+    <div>
+        <label>Rating:</label>
+        @Html.DropDownListFor(m => m.Rating,
+            new SelectList(new[]
+            {
+                new { Value = "1", Text = "1 - Poor" },
+                new { Value = "2", Text = "2" },
+                new { Value = "3", Text = "3 - Average" },
+                new { Value = "4", Text = "4" },
+                new { Value = "5", Text = "5 - Excellent" }
+            }, "Value", "Text"),
+            "-- Select Rating --",
+            new { @class = "form-control" })
+    </div>
+
+    <div>
+        <label>Comments:</label>
+        @Html.TextAreaFor(m => m.Comments, new { @class = "form-control", rows = 3 })
+    </div>
+
+    <button type="submit">Submit</button>
+}
