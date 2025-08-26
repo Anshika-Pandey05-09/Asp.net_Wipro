@@ -1,0 +1,49 @@
+@page
+@model Day30_BookStoreAppAssignment.Pages.Books.BookListModel
+@{
+    ViewData["Title"] = "Book List";
+}
+
+<h2>Book List</h2>
+
+<p>
+    <a asp-page="/Books/CreateBook" class="btn btn-success">Add New Book</a>
+</p>
+
+@if (Model.Books.Count == 0)
+{
+    <p>No books available.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.ISBN</td>
+                <td>@book.Price</td>
+            </tr>
+        }
+
+        <tr>
+            <td colspan="5" class="text-center">
+                <a asp-page="/Books/EditBook" class="btn btn-primary">Edit</a>
+                <a asp-page="/Books/DeleteBook" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+}

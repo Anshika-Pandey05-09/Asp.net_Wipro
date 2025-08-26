@@ -1,0 +1,39 @@
+@page
+@model Day30_BookStoreAppAssignment.Pages.Books.CreateBookModel
+@{
+    ViewData["Title"] = "Add New Book";
+}
+
+<h2>Add New Book</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewBook.Title"></label>
+        <input asp-for="NewBook.Title" class="form-control"  placeholder="Enter book title"/>
+        <span asp-validation-for="NewBook.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewBook.Author"></label>
+        <input asp-for="NewBook.Author" class="form-control" placeholder="Enter author name" />
+        <span asp-validation-for="NewBook.Author" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewBook.ISBN"></label>
+        <input asp-for="NewBook.ISBN" class="form-control"  placeholder="Enter ISBN" />
+        <span asp-validation-for="NewBook.ISBN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewBook.Price"></label>
+        <input asp-for="NewBook.Price" class="form-control" placeholder="Enter price" />
+        <span asp-validation-for="NewBook.Price" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Book</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

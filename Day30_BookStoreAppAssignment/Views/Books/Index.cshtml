@@ -1,0 +1,43 @@
+@model List<Day30_BookStoreAppAssignment.Models.Book>
+@{
+    ViewData["Title"] = "Books (MVC)";
+}
+
+<h2>Books List (MVC)</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var book in Model)
+    {
+        
+
+        <tr>
+            <td>@book.Id</td>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.ISBN</td>
+            <td>@book.Price</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-info btn-sm">Details</a>
+            </td>
+            <form method="post" asp-page="/Cart/Index" asp-page-handler="Add">
+    <input type="hidden" name="bookId" value="@book.Id" />
+    <button type="submit" class="btn btn-success btn-sm">Add to Cart</button>
+</form>
+
+        </tr>
+
+    }
+
+    </tbody>
+</table>

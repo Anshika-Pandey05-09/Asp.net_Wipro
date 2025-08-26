@@ -1,0 +1,17 @@
+@model Day30_BookStoreAppAssignment.Models.Book
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2>Book Details</h2>
+
+<div class="card p-3">
+    <h4>@Model.Title</h4>
+    <p><strong>Author:</strong> @Model.Author</p>
+    <p><strong>ISBN:</strong> @Model.ISBN</p>
+    <p><strong>Price:</strong> ₹@Model.Price</p>
+</div>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

@@ -1,0 +1,42 @@
+@page "{id:int}"
+@model Day30_BookStoreAppAssignment.Pages.Books.EditBookModel
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<h2>Edit Book</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="EditBook.Id" />
+
+    <div class="form-group">
+        <label asp-for="EditBook.Title"></label>
+        <input asp-for="EditBook.Title" class="form-control" />
+        <span asp-validation-for="EditBook.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EditBook.Author"></label>
+        <input asp-for="EditBook.Author" class="form-control" />
+        <span asp-validation-for="EditBook.Author" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EditBook.ISBN"></label>
+        <input asp-for="EditBook.ISBN" class="form-control" />
+        <span asp-validation-for="EditBook.ISBN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EditBook.Price"></label>
+        <input asp-for="EditBook.Price" class="form-control" />
+        <span asp-validation-for="EditBook.Price" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-page="/Books/BookList" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
