@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Day29_E_Commerce_assignment.Models.Order>
+
+<h2>@ViewBag.Username's Orders</h2>
+<ul>
+    @foreach (var order in Model)
+    {
+        <li>Order #@order.OrderId - @order.Item - ₹@order.Amount</li>
+    }
+</ul>

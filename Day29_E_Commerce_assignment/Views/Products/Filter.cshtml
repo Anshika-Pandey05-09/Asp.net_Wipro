@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Day29_E_Commerce_assignment.Models.Product>
+
+<h2>Filtered Products</h2>
+<p>Price Range: @ViewBag.Range</p>
+<ul>
+    @foreach (var p in Model)
+    {
+        <li>@p.Name - ₹@p.Price</li>
+    }
+</ul>
