@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Day29_ECommerce_assignment2/1.0.0": {
+        "runtime": {
+          "Day29_ECommerce_assignment2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day29_ECommerce_assignment2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
